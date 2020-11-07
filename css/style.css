@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	scroll-behavior: smooth;
+	list-style: none;
+	flex: 0 0 auto;
+}
+img{
+	max-width: 100%;
+
+}
+body{
+	font-family: 'Open Sans';
+	font-size: 16px:;
+
+}
+a, a:hover{
+	text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    color: white;
+    
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.banner-section{
+	padding: 20px 0px;
+	background-image: url(../images/banner2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: multiply;
+	padding-bottom: 60px;
+	height: 100vh;
+	opacity: .9;
+	background-color: cadetblue;
+}
+
+.banner-section4{
+	padding: 40px 0px;
+	background-image: url(../images/mountain1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: multiply;
+	padding-bottom: 60px;
+	height: 80vh;
+	background-color: cadetblue;
+	color: white;
+	opacity: .9;
+	background-attachment: fixed;
+}
+
+.col-1{
+
+}
+
+.banner-section2{
+	background: #80808014;
+	padding: 80px 0px;
+	color: #0000009e;
+}
+
+.quote{
+	text-align: center;
+
+}
+p{
+	 font-size: 18px;
+	 font-weight: 400;
+}
+h4{
+	letter-spacing: 1px;
+}
+header{
+
+}
+.logo{
+    width: 20%;
+    padding: 15px;
+}
+
+.logo h3{
+	letter-spacing: 1px;
+}
+nav{
+    width: 80%;
+    padding: 15px;
+}
+nav ul{
+ 
+    justify-content: flex-end;
+}
+nav ul li{
+	padding: 5px;
+
+}
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    padding:  10px 20px;
+    border-radius: 10px;
+    display: block;
+    transition-duration: .3s;
+
+}
+nav ul li a:hover{
+    background: red;
+    color: white;
+}
+section{
+	width: 1000px;
+	margin: auto;
+}
+.banner-content{
+    
+text-align: center;
+    
+padding-top: 220px;
+}
+.banner-content h1{
+
+	font-size: 80px;
+
+	letter-spacing: 3px;
+
+	padding-bottom: 24px;
+
+	padding-top: 15px;
+}
+.banner-content span{
+    
+	font-size: 24px;
+    
+	letter-spacing: 1.5px;
+    
+	display: block;
+}
+hr{
+
+width: 150px;
+
+margin: auto;
+
+display: inline-block;
+
+border: 0.8px solid #e00a0a;
+}
+.btn{
+   
+font-size: 16px;
+   
+border-radius: 10px;
+   
+transition-duration: .3s;
+   
+color: white;
+   
+display: inline-block;
+   
+letter-spacing: 5px;
+   
+padding: 12px;
+   
+background: red;
+}
+.btn:hover{
+	background: black;
+	color: orange;
+	display: inline-block;
+}
+
+.banner-section3{
+
+}
+
+.heading{
+
+padding: 80px 0px;
+
+text-align: center;
+}
+.heading h2{
+
+font-size: 40px;
+
+letter-spacing: 2px;
+}
+.banner-con-img{
+
+width: 1000px;
+
+margin: auto;
+
+padding-bottom:100px;
+}
+.col-2{
+
+flex: 0 0 auto;
+
+width: 50%;
+
+padding: 20px;
+
+margin-bottom: 10px;
+
+text-align: center;
+}
+
+.col-2 img{
+	
+	width: 100%;
+	
+	height: 350px;
+	padding: 10px;
+    background: #80808021;
+    border-radius: 10px;
+}
+.col-2 h3{
+	
+text-align: center;
+	
+padding: 25px 0 15px;
+	
+letter-spacing: 2px;
+	
+font-size: 22px;
+}
+
+.col-2 p{
+	
+text-align: center;
+	
+font-size: 16px;
+	
+padding-bottom: 20px;
+}
+
+.col-2 a, .box1 a{
+	color: white;
+	display: inline-block;
+	letter-spacing: 5px;
+	padding: 12px;
+	border-radius: 10px;
+	font-size: 16px;
+	background: red;
+}
+
+.box1 a{
+	background: red;
+	color: white;
+}
+	
+
+.bttn:hover{
+   
+background: black;
+   
+color: orange;
+}
+.col-1 div{
+	
+	width: 50%;
+	
+	margin-left: auto;
+}
+.col-1 h1{
+    font-size: 65px;
+    letter-spacing: 1px;
+}
+.col-1 p{
+    padding: 40px 0px 30px;
+}
+.banner-section5{
+	padding-bottom: 100px;
+	padding-top: 100px;
+
+}
+.box1{
+	width: 35%;
+	padding: 15px;
+	}
+
+.box1 h1{
+	font-size: 30px;
+	text-align: left;
+	letter-spacing: 1px;
+	}
+
+.box1 p{
+	padding: 40px 0 30px;
+	font-size: 18px;
+}
+
+
+.box1 a{padding: 12px;}
+
+.box2{
+	width: 65%;
+	padding: 15px;
+	}
+
+.box2 .col-4 div{
+
+width: 100%;
+
+padding: 10px;
+}
+.col-4{
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: column;
+}
+.col-4 div{
+	width: 50%;
+	padding: 10px 15px;
+}
+.box2 div{
+    width: 50%;
+}
+.first{object-fit: cover;
+	border-radius: 8px;
+	height: 250px;
+	width: 100%;}
+
+.second{
+	
+height: 400px;
+	
+object-fit: cover;
+	
+border-radius: 8px;
+}
+footer{
+
+background: black;
+
+padding: 50px;
+}
+.footer{
+	
+	color: white;
+	
+	text-align: center;
+	
+	padding: 20px;
+    width: 1000px;
+    margin: auto;
+}
+.footer p{
+	padding: 5px;
+}
+footer .copy{
+	
+font-size: 14px;
+	
+color: blue;
+}
+.middle-banner{
+	    padding-top: 75px;
+
+}
